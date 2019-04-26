@@ -1,0 +1,24 @@
+{
+  "name": "f1",
+  "version": "1.0.0",
+  "description": "f1 server",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node -r esm app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikamiwillard/f1.git"
+  },
+  "author": "Willard Shikami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikamiwillard/f1/issues"
+  },
+  "homepage": "https://github.com/shikamiwillard/f1#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "esm": "^3.2.22"
+  }
+}
