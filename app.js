@@ -1,7 +1,8 @@
-import { getHTML, races } from './scrapper/scrape';
+import { getHTML, getDrivers, driverNames } from './scrapper/scrape';
 
 async function go(){
-    races(await getHTML('https://www.formula1.com/en/racing/2019.html'));
+    const url = 'https://www.formula1.com/en/results.html/2019/drivers.html'
+    driverNames(await getDrivers(url));
 }
 
 go();
